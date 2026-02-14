@@ -160,17 +160,17 @@ class WeatherApp(QWidget):
         elif 701 <= weather_id <= 741:
             return "🌫️"
         elif weather_id > 762:
-            return ""
+            return "🌤"
         elif weather_id==771:
-            return ""
+            return "🌦"
         elif weather_id==781:
-            return ""
+            return "☀"
         elif weather_id == 800:
             return "☀️"
         elif 801 <= weather_id <= 804:
             return "☁️"
         else:
-            return ""
+            return "🌫"
 
 
 
